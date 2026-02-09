@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+nav {
+    display: flex;
+    gap: 170px;
+    background: linear-gradient(20deg, orange, black, black, black, black, orange);
+    padding: 20px;
+    color: whitesmoke;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+nav h1 {
+    gap: 20px;
+}
+
+nav span {
+    font-family: Edwardian Script ITC;
+    font-size: 40px;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 150px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    font-size: 19px;
+}
+
+nav button {
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px white solid;
+    width: 100px;
+    transition: 1s;
+}
+
+nav button:hover {
+    font-size: 19px;
+}
+
+.hero {
+    /* border: 2px rgb(0, 0, 0) solid; */
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    gap: 1;
+    /* background: linear-gradient(20px,orange,black,orange); */
+    border: 3px solid black;
+    box-shadow: 2px 2px 10px black;  
+transition: 1s;
+}
+h3{
+    font-size: 15px;
+
+}
+/* .ven{
+    background-color: black;
+    height: 10px;
+    width: 50px;
+} */
+.logo {
+    margin-left: 1000px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.logo .can {
+    font-size: 70px;
+    font-weight: 600;
+    color: orange;
+    padding: 40px;
+    font-family: Edwardian Script ITC;
+    width: 150px;
+     border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+.search{
+    margin-top: 30px;
+    background-color:black ;
+    color: white;
+    padding:20px;  
+width: 250px;
+height: 150px;
+box-shadow: 2px 2px 10px black;
+border-radius: 10px;
+}
+.second{
+    font-family:Edwardian Script ITC ;
+font-size: 40px;
+color: orange;
+}
+input{
+    border-radius:0px 0px 5px 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 2px 10px rgb(100, 100, 100);
+width: 150px;
+transition: 1s;
+}
+input:focus{
+    width:200px;
+}
+.last{
+ display: flex;
+    gap: 900px;
+    background: linear-gradient(20deg, orange, black, black, black, black, orange);
+    padding: 20px;
+    color: whitesmoke;
+    box-shadow: 2px 2px 10px black;  
+    margin-top: 30px; 
+}
+.last li {
+    list-style: none;
+}
+.last a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 1s;
+}
+.last a:hover {
+    font-size: 17px;
+}
